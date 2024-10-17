@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Digital</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <style>
+        /* CSS untuk no-scroll */
+        .no-scroll {
+            overflow: hidden;
+        }
+        /* CSS tambahan untuk #Cover */
+        #Cover {
+            height: 100vh; /* Atur tinggi penuh viewport */
+            overflow: hidden; /* Sembunyikan scrollbar */
+        }
+        #Cover.no-scroll {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="Cover" class="no-scroll">
+        <div class="elemen">
+            <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="elemen1" src="image/elemen1.png" alt="">
+            <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="elemen2" src="image/elemen1.png" alt="">
+        </div>
+        <div class="text">
+            <h6>The Wedding Of</h6>
+            <h1>Jeno & Karina</h1>
+            <h3>Sabtu, 29 Oktober 2025</h3><br>
+            <p>Dengan Hormat kami mengundang</p>
+            <br />
+            <h6>Nabila dan Suami</6>
+            <br />
+            <center>
+                <a href="#main"><button class="button1">Open invitation</button></a>
+            </center>
+        </div>
+    </div>
+    
+    
+    <div id="main" style="display: none;">
+        <div id="nav">
+            <ul>
+                <li><a href="#pengantin"><i class='bx bx-user'></i></a></li>
+                <li><a href="#Event"><i class='bx bx-calendar'></i></a></li>
+                <li><a href="#gallery"><i class='bx bx-image'></i></a></li>
+                <li><a href="#table"><i class='bx bx-group'></i></a></li>
+                <li><a href="#RSVP"><i class='bx bx-check-circle'></i></a></li>
+                <li><a href="#hadiah"><i class='bx bx-transfer'></i></a></li>
+                <li><a href="#closing"><i class='bx bx-heart'></i></a></li>
+            </ul>
+        </div>
+        <div id="kotakmusik">
+          <audio id="musik" loop autoplay>
+            <source src="assets/audio/My Valentine.mp3" />
+          </audio>
+          <div id="ctrlmusik" onclick="putarMusik()">
+            <img id="imgmusik" src="image/icon-audio-mute.png" alt="musik" />
+          </div>
+        </div>
+        <div class="qoutes">
+            <img  data-aos-easing="linear"
+            data-aos-delay="50"
+            data-aos-duration="3000"  src="image/ornamen1.png" class="ornamen1" />
+            <div class="pquotes">
+                <p data-aos="fade-up"
+                data-aos-duration="3000">
+                    بَارَكَ اللهُ لَكَ وَجَمَعَ بَيْنَكُمَا فِيْ خَيْرٍ. بَارَكَ اللهُ
+                    لِكُلِّ وَاحِدٍ مِنْكُمَا فِيْ صَاحِبِهِ وَجَمَعَ بَيْنَكُمَا فِيْ
+                    خَيْرٍ<Br /><Br />
+                    Latin: Bârakallâhu laka wa jama'a bainakumâ fî khairin. Bârakallahu
+                    likulli wâhidin minkumâ fî shâhibihi wa jama'a bainakumâ fî
+                    khairin<Br /><Br />
+                    Artinya: "Berkah Allah (semoga tercurahkan) bagimu. Dan (semoga)
+                    Allah mengumpulkan kalian berdua dalam kebaikan. Berkah Allah
+                    (semoga tercurahkan) bagi masing-masing kalian berdua atas
+                    pasangannya, dan (semoga) Allah mengumpulkan kalian berdua dalam
+                    kebaikan."
+                </p>
+            </div>
+            <img data-aos="fade-up"
+            data-aos-duration="3000" src="image/ornamen2.png" class="ornamen2" />
+        </div>
+
+        <div id="pengantin"
+        >
+          <img src="image/ornamen4.png" class="ornamen4">
+            <center>
+                <img class="foto-pengantin"
+                    src="image/Cover 1.jpg"
+                    style="
+                    width: 100%;
+                    max-width: 365px;
+                    border-radius: 25px;
+                    align-items: center;
+                    margin-top: 100px;
+                    margin-left: 11px;
+                    margin-right: 5px;
+                    position: relative;"/>
+                <br /><br />
+                <h2>Jeno & Karina</h2>
+                <br /><br />
+                <div class="pengantin-wanita" style="text-align: center;">
+                    <img
+                        class="bg-size"
+                        src="image/Karina1.jpg"
+                        alt="pengantin-wanita"
+                        style="border-radius: 25px; max-width: 365px;"
+                    />
+                    <div class="detail-txt">
+                        <a href="https://www.instagram.com/katarinabluu/">
+                            <i class="fa-brands fa-instagram"> @katarinabluu</i>
+                        </a>
+                        <p class="nama-pengantin">Yu Ji Min</p>
+                        <p>
+                            Anak ke-1 dari <br>Bapak Areksa Mahendra dan<br> Ibu Raespati Aruna
+                        </p>
+                    </div>
+                </div>
+                <div class="pengantin-laki-laki">
+                    <img
+                        class="bg-size"
+                        src="image/Jeno1.jpg"
+                        alt="pengantin-laki-laki"
+                    />
+                </div>
+                <div class="detail-txt">
+                    <a href="https://instagram.com/leejen_o_423/">
+                        <i class="fa-brands fa-instagram"> @leejen_o_423</i>
+                    </a>
+                    <p class="nama-pengantin">Lee Jeno</p>
+                    <p>Anak ke-1 dari <br>Bapak Refan Sangkara dan<br> Ibu Paradista Alsava</p>
+                    <p>Zodiak: Libra</p>
+                </div>
+            </center>
+            <img src="image/ornamen4.png" class="ornamen5">
+          </div>
+          
+        <center>
+            <div id="Event">
+                <div class="event">
+                    <h3 class="text-event">Akad Nikah</h3>
+                    <div class="details">
+                        <p>Jumat, 28 April 2023</p>
+                </div>
+                <div class="details">
+                    <p>
+                      Plataran Menteng, Jalan HOS. Cokroaminoto, RT.6/RW.4, Gondangdia,
+                      Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Indonesia
+                    </p>
+                </div>
+                    <button class="button"> <a href="https://maps.app.goo.gl/MvjF316xu3Cpwb8w5"> Lihat Lokasi</a> </button>
+            
+              <div class="event">
+              <h3 class="text-event1">Resepsi</h3>
+                <div class="details">
+                    <p>Jumat, 15 Maret 2024</p>
+                </div>
+                <div class="details">
+                  <p>DoubleTree by Hilton Jakarta - Diponegoro, Jakarta Pusat</p>
+                </div>
+                <button class="button"> <a href="https://maps.app.goo.gl/MvjF316xu3Cpwb8w5"> Lihat Lokasi</a> </button>
+              </div> 
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126205.
+                          41434038607!2d115.13508257057407!3d-8.699223462321319!2m3!1f0!2
+                          f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24790509439ab%3A0
+                          xa6bff03578513973!2sBalai%20Pertemuan%20Bhumiku!5e0!3m2!1sen!2si
+                          d!4v1725170745206!5m2!1sen!2sid" 
+                          width="350" 
+                          height="250"
+                          style="border:0;" 
+                          allowfullscreen="" 
+                          loading="lazy" 
+                          referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+          </center>
+
+        <center><br><br>
+            <div id="gallery">
+                <h2>Gallery</h2><br>
+                <video autoplay loop muted>
+                  <source src="assets/video/video.mp4" type="video/mp4">
+              </video>
+                <div class="gallery-track">
+                    <img src="image/Relationship1.jpg" alt="Image 1">
+                    <img src="image/download (1).jpg" alt="Image 2">
+                    <img src="image/Relationship4.jpg" alt="Image 3">
+                    <img src="image/Engangement2.jpg" alt="Image 4">
+                    <img src="image/Engangement1.jpg" alt="Image 5">
+                    <img src="image/Engagement4.jpg" alt="Image 1">
+                    <img src="image/Prewed 1.jpg" alt="Image 2">
+                    <img src="image/Prewed 2.jpg" alt="Image 3">
+                    <img src="image/Prewed 3.jpg" alt="Image 4">
+                    <img src="image/Prewed4.jpg" alt="Image 5">
+                </div><br>
+            </div>
+        </center>
+        <!-- SECTION TABLE -->
+       
+  <div id="table">
+    <div class="container">
+      <h2>Turut Mengundang</h2>
+      <table class="daftar-table">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Nama</th>
+            <th>Posisi</th>
+            <th>Hubungan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Bapak Tamba Tua</td>
+            <td>CEO Perusahaan  Cinta Rasa Ayam</td>
+            <td>Rekan Bisnis</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ibu Susana</td>
+            <td>Direktur Keuangan Angkasa Berkah</td>
+            <td>Teman Keluarga</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Bapak Dedi Pratama</td>
+            <td>Walikota Jakarta</td>
+            <td>Kerabat</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Bapak Satria Ade Putra</td>
+            <td>Pengajar</td>
+            <td>Rekan Bisnis</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+    <center>
+    <div id="RSVP">
+        <section id="rsvp" class="rsvp">
+            <h2>Form Kehadiran </h2>
+            <form id="rsvpForm">
+              <!--Format textbox-->
+              <label for="name">Nama: </label>
+              <input type="text" id="name" name="name" required>
+              <label for="phone">Nomor Telepon: </label>
+              <input type="number" id="phone" name=phone">
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="email" required>
+              <!--Format Radio-->
+              <fieldset>
+                <legend>Apakah kamu akan datang?</legend>
+                <label><input type="radio" name="attendance" value="yes" required> Iya, Saya akan datang</label>
+                <label><input type="radio" name="attendance" value="no"> Maaf, saya tidak bisa datang</label>
+              </fieldset>
+              <!--Format Checkbox-->
+              <fieldset>
+                <legend>Prefensi Makanan:  </legend>
+                <label><input type="checkbox" name="menu" value="vegetarian"> Vegan</label>
+                <label><input type="checkbox" name="menu" value="vegetarian"> Vegetarian</label>
+                <label><input type="checkbox" name="menu" value="vegetarian"> Non-Vegetarian</label> 
+              </fieldset>
+              <!--Format Selectbox-->
+              <label for="guestCount">Jumlah tamu: </label>
+              <select id="guestCount" name="guestCount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="more">lebih banyak</option>
+              </select>
+              <div class="error"></div>
+              <!--Format Text area-->
+              <label for="message-form">Pesan untuk pengantin: </label>
+              <textarea id="message-form" name="message" rows="4"></textarea>
+              <!--Tommbol submit-->
+              <button type="submit-form">Submit</button>
+            </form>
+          </section>
+      </section>
+    </div>
+    </center>
+
+        <center>
+            <div id="story">
+                <h3>Our Love Story</h3>
+                <p>Pernikahan yang sukses bukanlah<br>
+                    persatuan antara dua orang yang sempurna. Tetapi antara
+                    dua orang yang tidak sempurna yang telah
+                    mempelajari nilai pengampunan dan kasih.</p>
+                <img src="image/Relationship3.jpg" alt="friend" />
+                <p>2019 friend</p>
+                <img src="image/Prewed 3.jpg" alt="tunangan" />
+                <p>2024 engagement</p>
+                <img src="image/Cover Depan.jpg" alt="finally" />
+                <p>2030 Wedding</p>
+                <iframe width="400" height="320" src="https://www.youtube.com/embed/ivrumxRUz_Y?si=ENLJHC2jLh7u76hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+        </center>
+
+        <center>
+            <div id="hadiah">
+                <div class="container">
+                  <h2>Kirim Hadiah Pernikahan</h2>
+                  <p>Terima kasih telah berbagi kebahagiaan kami. Anda dapat mengirim hadiah melalui metode berikut:</p>
+            
+                  <div class="pilihan">
+                    <!-- Metode Transfer -->
+                    <div class="card-hadiah">
+                      <h3>Transfer Bank</h3>
+                      <p>Bank: BCA</p>
+                      <p>No. Rekening: 9429341923</p>
+                      <p>Atas Nama: kilaa</p>
+                      <button class="copy-btn" onclick="copyToClipboard('9429341923')">Salin No. Rekening</button>
+                    </div>
+            
+                    <!-- E-wallet -->
+                    <div class="card-hadiah">
+                      <h3>E-wallet</h3>
+                      <p>GoPay / OVO / Dana</p>
+                      <img src="image/gambar12.jpg" alt="QR Code" class="qr-code">
+                    </div>
+            
+                    <!-- Kirim Hadiah Fisik -->
+                    <div class="card-hadiah">
+                      <h3>Kirim Hadiah Fisik</h3>
+                      <p>Alamat: Jl. Kesedihan No. 4, Kota Bahagia</p>
+                      <p>Atas Nama: kilaa</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </center>
+        <div id="kirim-pesan">
+            <div class="container">
+              <h2>Kirim Pesan untuk Pengantin</h2>
+              <p>Berikan ucapan dan doa terbaik Anda untuk kedua mempelai!</p>
+        
+              <form action="#" method="post" class="form-pesan">
+                <div class="form-grup">
+                  <label for="name">Nama:</label>
+                  <input type="text" id="name" name="name" required placeholder="Masukkan Nama Anda">
+                </div>
+        
+                <div class="form-grup">
+                  <label for="address">Alamat:</label>
+                  <input type="text" id="address" name="address" required placeholder="Masukkan Alamat Anda">
+                </div>
+        
+                <div class="form-grup">
+                  <label for="message">Pesan untuk Pengantin:</label>
+                  <textarea id="message" name="message" rows="5" required placeholder="Tulis pesan Anda di sini"></textarea>
+                </div>
+        
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+              </form>
+            </div>
+          </section>
+
+        <center><div id="closing">
+            <img class="closing-img" src="image/closing.png" alt="">
+            <h1>Terima Kasih Atas Perhatian Anda</h1>
+            <p>Kehadiran anda akan sangat berarti bagi kami</p>
+          </div></center>
+        
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.getElementById('scrollBtn').addEventListener('click', function() {
+        // Scroll ke bawah
+        window.scrollTo({
+          top: document.getElementById('ornament').offsetTop,
+          behavior: 'smooth'
+        });
+  
+        // Inisialisasi AOS setelah scroll ditekan
+        setTimeout(function() {
+          AOS.init();
+        }, 500);  // Tunda untuk memastikan scroll selesai
+      });
+    </script>
+    <script>
+        //untuk cover
+        document.querySelector(".button1").addEventListener("click", function () {
+            document.getElementById("Cover").classList.remove("no-scroll");
+            document.getElementById("main").style.display = "block";
+        });
+        window.addEventListener("load", function () {
+            document.getElementById("Cover").classList.add("no-scroll");
+        
+        });
+    </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  <script>
+    //untuk salin tautan
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Nomor rekening berhasil disalin!');
+      });
+    }
+  </script>
+   <script>
+    function putarMusik(){
+      const musik = document.querySelector('#musik');
+      const imgmusik = document.querySelector('#imgmusik');
+
+      if(musik.paused){
+        musik.play();
+        imgmusik.src = "image/icon-audio.png";
+      } else {
+        musik.pause();
+        imgmusik.src = "image/icon-audio-mute.png";
+      }
+    }
+  </script>
+</body>
+</html>
