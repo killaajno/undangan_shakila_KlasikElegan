@@ -461,7 +461,7 @@ h2 {
 @media (max-width: 768px) {
   .guest-table th,
   .guest-table td {
-    padding: 8px 10px;
+    padding: 0px 0px;
     font-size: 0.9rem;
   }
 }
