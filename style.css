@@ -373,6 +373,9 @@ a {
   font-family: Outfit;
   font-size: 30px;
 }
+.gallery {
+  overflow: hidden;
+}
 .gallery-track {
   margin-top: 16px;
   display: flex;
