@@ -12,6 +12,17 @@
   scroll-behavior: smooth;
   transition-duration: 0.5s;
 }
+@media only screen and (min-width: 1280px) {
+  #Cover {
+    background-image: url(image/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+  }
+}
 @media only screen and (min-width: 992px) {
   #Cover {
     background-image: url(image/bg.jpeg);
