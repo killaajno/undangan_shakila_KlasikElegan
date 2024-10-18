@@ -20,13 +20,16 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
   }
+
   #main {
     padding: 0px;
   }
   #Cover .text {
-    padding: 155px;
   }
   #Cover h6 {
     font-family: gupter static;
@@ -263,15 +266,6 @@
   margin-left: 10%;
   margin-right: 10%;
 }
-
-#pengantin .ornamen4 {
-  margin: 50px;
-  position: absolute;
-  z-index: 1;
-  top: 1450px;
-  left: -130px;
-  bottom: 100px;
-}
 .pengantin h2 {
   margin-top: 20px;
   text-align: center;
@@ -294,14 +288,6 @@ i {
 }
 i:hover {
   color: rgb(119, 123, 175);
-}
-.ornamen5 {
-  position: absolute;
-  z-index: 0;
-  top: 2750px;
-  left: -150px;
-  margin-top: 2rem;
-  bottom: 100px;
 }
 .detail-txt {
   text-align: center;
@@ -381,6 +367,7 @@ a {
   display: flex;
   width: calc(100% * 5);
   animation: moveGallery 29s linear infinite;
+  overflow: hidden;
 }
 .gallery-track img {
   width: 10%;
